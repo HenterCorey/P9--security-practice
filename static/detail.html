@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="//9.url.cn/edu/lego_modules/edu-ui/0.0.1/img/nohash/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/detail.css">
+  <title>详情页</title>
+  <script src="https://cdn.bootcss.com/js-xss/0.3.3/xss.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="header"><a href="/index.html">博客网站</a></h1>
+    <div class="userinfo">
+      <div class="current-user">
+        <span class="current-user-name"></span>
+        <a class="js-logout" href="javascript:void(0)">注销</a>
+      </div>
+      <a class="js-login login-link" href="javascript:void(0)">登录</a>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="content"></div>
+    <div class="comment">
+      <h2 class="comment-title">
+        <span>评论</span>
+        <span class="comment-total"></span>
+      </h2>
+      <div class="comment-reply">
+        <img src=""  class="user-avatar">
+        <textarea class="comment-input" name="" id="" cols="30" rows="10"></textarea>
+        <button class="js-add-comment">发表评论</button>
+        <div class="user-logout">
+          <span class="user-name">cover</span>
+          <a href="" class="js-logout">登出</a>
+        </div>
+      </div>
+      <ul class="comment-list"></ul>
+    </div>
+  </div>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/user.js"></script>
+  <script src="/js/detail.js"></script>
+</body>
+</html>
